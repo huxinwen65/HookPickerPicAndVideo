@@ -1,4 +1,5 @@
 # HookPickerPicAndVideo
+```
 PhotoPicker (iOS 8.0 or later)
 RedPickerBaseViewController* picker = [RedPickerBaseViewController new];     
 picker.defaultAssetCollectionType = PHAssetCollectionSubtypeSmartAlbumUserLibrary;     
@@ -11,3 +12,4 @@ picker.delegate = self;
 
 
 @protocol RedPickerViewControllerDelegate <NSObject>  - (void)assetsPickerController:(RedPickerBaseViewController *)picker didFinishPickingAssets:(NSArray *)assets;
+```
